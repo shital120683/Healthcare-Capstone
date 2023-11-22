@@ -1,13 +1,13 @@
 # Healthcare-Capstone:
 Evanston Hospital is a comprehensive acute-care facility in Illinois, US. The hospital offers a wide range of services and surgical specialities, in addition to having high-end lab capabilities. Despite spending a considerable amount of resources on improving its services, the hospital’s CMS rating has remained at 3 for the past 5 years, and this has led to a steady decline in revenue for the hospital. For hospitals like Evanston, these ratings directly influence the choice made by consumers who are looking for a healthcare provider and would, therefore, have a significant impact on the hospitals’ revenues. As a consulting company hired by Evanston, our task is to identify possible root causes for the hospital getting such an average rating and recommend measures to mitigate this problem.
-Part II - Data Understanding and EDA:
+## Part II - Data Understanding and EDA:
 Let’s consider one of the possible root causes for Evanston Hospital not being able to improve its rating - the hospital is not aware of the factors that are possibly affecting its rating significantly. Therefore, as a business analyst, you have proposed building a rating prediction model which can be used to determine those factors.
 This project is focussed on developing an approach to calculate hospital ratings and using it to identify areas of improvement for certain hospitals. It will also require a thorough understanding of the rating system developed by CMS.
 You can read the details of the CMS rating project here.
 For developing the model, the data can be downloaded from the hospital compare website.
 Note that the above link would contain multiple datasets. You can go through the CMS Rating procedure to understand which datasets are necessary for building the rating prediction model.
 Once you have identified the necessary datasets, perform suitable EDA on each of them - clean the data, keep the important columns, remove the unnecessary ones, standardise the data, and combine all of them to a single dataframe. Conduct univariate and bivariate analyses on them to identify patterns and apply suitable feature engineering techniques to make the data ready for the modelling steps. You can also check if there is any skewness in the data and try to mitigate it, as it might cause problems during the model-building phase.
-Part III - Model Building and Evaluation:
+## Part III - Model Building and Evaluation:
 Once you have completed the EDA steps, the next step is to start building the rating prediction model. The Machine Learning pipeline consists of the following steps.
 Building the rating prediction model. The Machine Learning pipeline consists of the following steps:
 Train/Test Split: By now, you are familiar with the train/test split, which you can perform to evaluate the performance of your models with unseen data. You can use the stratified k-fold cross-validation method here. You need to choose an appropriate k value so that the minority class is correctly represented in the test folds.
